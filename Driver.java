@@ -6,13 +6,24 @@ public class Driver {
 		//nemo -> object, Fish -> class
 
 		nemo.Swim();
-		nemo.color = "red";
+		//nemo.color = "red";
+		nemo.SetColor("orange");
 		nemo.Swim();
 
-		Fish dory = new Fish();
+		Shark bruce = new Shark();
+		bruce.Eat();
+		bruce.Swim();
+		bruce.SetSharpTeeth(130);
+		bruce.Eat();
+		//Fish dory = new Fish();
 
-		dory.Swim();
-		dory.color = "yellow";
-		dory.Swim();
+		//dory.Swim();
+		//dory.color = "yellow";
+		//dory.SetColor("indigo");
+		//dory.Swim();
+
+		//Aquarium fancyAquarium = new Aquarium();
+		//fancyAquarium.fillFish();
+
 	}
 }
