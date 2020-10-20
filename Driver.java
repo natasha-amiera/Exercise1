@@ -9,6 +9,9 @@ public class Driver {
 		//nemo.color = "red";
 		nemo.SetColor("orange");
 		nemo.Swim();
+		nemo.Swim(2); //Overloading
+		nemo.Swim(2.5);
+		nemo.Swim(10, 3);
 
 		Shark bruce = new Shark();
 		bruce.Eat();

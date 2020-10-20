@@ -16,4 +16,16 @@ public class Fish {
 	public String GetColor() {
 		return color;
 	}
+
+	//overloading
+	public void Swim(int fin) {
+		System.out.println("fish swim with " + fin + " fins");
+	}
+	//polymorphism
+	public void Swim(double speed) {
+		System.out.println("fish swim at " + speed + " m/s");
+	}
+	public void Swim(int eat, int hour) {
+		System.out.println("fish eat " + eat + "fish every " + hour + " hours");
+	}
 }
